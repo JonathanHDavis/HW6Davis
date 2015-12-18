@@ -4,10 +4,12 @@ var result = x + y;
 console.log(result);
 //basic adding number data types
 
+/*
 var alert1 = "This";
 var alert2 = "alert!";
 alert(alert1 +  " " + "is" + " " + "an" + " " + alert2);
 //adding strings to make an alert
+*/
 
 function change() {
 	document.getElementById("surprise").innerHTML = "BOO! Didn't see THAT coming";
@@ -47,6 +49,41 @@ if((5 !== 5)){
 	console.log("This logic stuff is strange");
 }
 //an else with numbers
+
+/*
+function describeMe(name, adjective){
+	return name + " is " + adjective;
+}
+alert(describeMe("Jonathan", "awesome!"));
+*/
+//a function that takes two arguments
+
+function math(number) {
+	if (number === 2) {
+		return ("Correct! 1 + 1 = 2! You are so smart")
+	} else {
+		return ("WOW. You don't know 1 + 1? You are dumb.")
+	}
+
+}
+
+alert(math(3));
+//function that has one argument and and if/then
+
+function favorite(animal) {
+	if (animal === "dog") {
+		return "Great choice, dogs are the BEST!";
+	} else if (animal === "cat") {
+		return "Really, a cat? You're a terrible person...";
+	} else {
+		return "You're stupid for not choosing dog, but at least you didnt say cat."
+	}
+}
+
+console.log(favorite("goldfish"));
+
+
+
 
 
 
