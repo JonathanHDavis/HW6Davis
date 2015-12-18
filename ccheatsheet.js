@@ -81,6 +81,7 @@ function favorite(animal) {
 }
 
 console.log(favorite("goldfish"));
+//if else function
 
 
 
